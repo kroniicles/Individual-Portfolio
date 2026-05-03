@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Michael F. Cayabyab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navbar__brand">
+        <span class="navbar__logo">JM</span>
+        <span class="navbar__name">JOHN MICHAEL F. CAYABYAB</span>
+      </div>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__nav" id="main-nav" role="menubar">
+        <li role="none"><a href="#skills"   class="navbar__nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#hobbies"  class="navbar__nav-link" role="menuitem">Interests</a></li>
+        <li role="none"><a href="#about"    class="navbar__nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#contacts" class="navbar__nav-link" role="menuitem">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__content">
+        <h1 class="hero__title">HI, I'M JOHN<br>MICHAEL F.<br>CAYABYAB.</h1>
+        <p class="hero__subtitle">
+          1st year BSIT - CSNI student
+          from UDD. Exploring Web
+          Development, Networking, <br>and
+          building small projects
+          along the way.
+        </p>
+      </div>
+      <div class="hero__image-wrapper">
+        <img
+          class="hero__image"
+          src="idol jm.jpg"
+
+        />
+      </div>
+    </section>
+
+    <!-- ===== ACTIVITIES & EDUCATION ===== -->
+    <section class="about" id="about" aria-label="Activities and Education">
+      <span class="about__label">ABOUT ME</span>
+      <h2 class="about__title">ACTIVITIES &amp; EDUCATION</h2>
+
+      <div class="about__grid">
+
+        <div class="about__col">
+          <h3 class="about__col-title">SCHOOL ACTIVITIES</h3>
+        </div>
+
+        <div class="about__col">
+          <h3 class="about__col-title">EDUCATION</h3>
+        </div>
+
+        <article class="activity-card">
+          <div class="activity-card__header">
+            <span class="activity-card__title">PROGRAMMING 2</span>
+            <span class="activity-card__tag activity-card__tag--done">2026</span>
+          </div>
+          <p class="activity-card__meta">BSIT - CSNI 1ST YEAR 2nd Semester</p>
+          <ul class="activity-card__list">
+            <li class="activity-card__item">Delved deeper into Programming by starting to learn Python language</li>
+            <li class="activity-card__item">Helped developing the game project ARLD(ALL ROADS LEAD TO DAGUPAN) a traditional Filipino jeepney commuter game.</li>
+          </ul>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-card__header">
+            <span class="activity-card__title">BSIT – CSNI</span>
+            <span class="activity-card__tag activity-card__tag--progress">IN PROGRESS</span>
+          </div>
+          <p class="activity-card__meta">1ST YEAR - IN PROGRESS</p>
+          <ul class="activity-card__list">
+            <li class="activity-card__item">Major in Cybersecurity &amp; Network Infrastructure</li>
+          </ul>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-card__header">
+            <span class="activity-card__title">WEB TECHNOLOGY AND DEVELOPMENT 1</span>
+            <span class="activity-card__tag activity-card__tag--done">DONE</span>
+          </div>
+          <p class="activity-card__meta">BSIT - CSNI 1ST YEAR 2nd Semester</p>
+          <ul class="activity-card__list">
+            <li class="activity-card__item">Learned about HTML and CSS programming language specifically for Web Development</li>
+            <li class="activity-card__item">Helped Build the ARLD(ALL ROADS LEAD TO DAGUPAN) website</li>
+          </ul>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-card__header">
+            <span class="activity-card__title">SENIOR HIGHSCHOOL</span>
+            <span class="activity-card__tag activity-card__tag--done">DONE</span>
+          </div>
+          <p class="activity-card__meta">TVL PROGRAMMING STRAND</p>
+          <ul class="activity-card__list">
+            <li class="activity-card__item">Graduation with honors on PAHINMA University of Pangasinan</li>
+            <li class="activity-card__item">Helped developed the group project Inventory System a Inventory System to keep track of your storage online</li>
+          </ul>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-card__header">
+            <span class="activity-card__title">PROGRAMMING 1</span>
+            <span class="activity-card__tag activity-card__tag--done">DONE</span>
+          </div>
+          <p class="activity-card__meta">BSIT - CSNI 1ST YEAR</p>
+          <ul class="activity-card__list">
+            <li class="activity-card__item">Learning Java fundamentals and basic Java logic</li>
+            <li class="activity-card__item">Built the game project Solo-RPG, a text turn based game based on the anime Solo Leveling</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== HOBBIES & INTERESTS ===== -->
+    <section class="hobbies" id="hobbies" aria-label="Hobbies and Interests">
+      <h2 class="hobbies__title">HOBBIES &amp; INTERESTS</h2>
+      <p class="hobbies__subtitle">What I'm up to when I'm not studying</p>
+
+      <div class="hobbies__grid">
+
+        <article class="hobby-card">
+          <div class="hobby-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="5,3 19,12 5,21" fill="#f0e0b8"/>
+            </svg>
+          </div>
+          <h3 class="hobby-card__title">GAMING</h3>
+          <p class="hobby-card__desc">I like playing video games like Valorant and multiplayer games with friends.</p>
+        </article>
+
+        <article class="hobby-card">
+          <div class="hobby-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 18V5l12-2v13" stroke="#f0e0b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="6"  cy="18" r="3" fill="#f0e0b8"/>
+              <circle cx="18" cy="16" r="3" fill="#f0e0b8"/>
+            </svg>
+          </div>
+          <h3 class="hobby-card__title">MUSIC</h3>
+          <p class="hobby-card__desc">I like listening to artists like Mitski and K-pop groups like Newjeans</p>
+        </article>
+
+        <article class="hobby-card">
+          <div class="hobby-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="20" rx="2" stroke="#f0e0b8" stroke-width="2"/>
+              <polygon points="10,8 16,12 10,16" fill="#f0e0b8"/>
+            </svg>
+          </div>
+          <h3 class="hobby-card__title">MOVIES</h3>
+          <p class="hobby-card__desc">Watching movies especially at nighttime</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills" id="skills" aria-label="Skills">
+      <span class="skills__label">SKILLS</span>
+      <h2 class="skills__title">THINGS I USE</h2>
+      <p class="skills__subtitle">A short list of tools and languages I use in<br>school</p>
+
+      <div class="skills__grid">
+        <div class="skill-card skill-card--html">
+          <span class="skill-card__icon" aria-hidden="true">&lt;/&gt;</span>
+          <span class="skill-card__name">HTML</span>
+        </div>
+        <div class="skill-card skill-card--css">
+          <span class="skill-card__icon" aria-hidden="true">#</span>
+          <span class="skill-card__name">CSS</span>
+        </div>
+        <div class="skill-card skill-card--js">
+          <span class="skill-card__icon" aria-hidden="true">JS</span>
+          <span class="skill-card__name">Javascript</span>
+        </div>
+        <div class="skill-card skill-card--py">
+          <span class="skill-card__icon" aria-hidden="true">Py</span>
+          <span class="skill-card__name">Python</span>
+        </div>
+      </div>
+
+      <div class="skills__row2">
+        <div class="skill-card skill-card--word">
+          <span class="skill-card__icon" aria-hidden="true">W</span>
+          <span class="skill-card__name">Microsoft<br>Word</span>
+        </div>
+        <div class="skill-card skill-card--github">
+          <span class="skill-card__icon" aria-hidden="true">
+            <img src="guthib.png" alt="GitHub logo">
+          </span>
+          <span class="skill-card__name">Github<br>Basics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTS ===== -->
+    <section class="contacts" id="contacts" aria-label="Contact Information">
+      <h2 class="contacts__title">MY CONTACTS</h2>
+      <p class="contacts__subtitle">Feel free to reach out for school projects or study<br>groups.</p>
+
+      <ul class="contacts__list">
+        <li>
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="4" width="20" height="16" rx="2" stroke="white" stroke-width="2"/>
+                <polyline points="2,4 12,13 22,4" stroke="white" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="contact-item__content">
+              <p class="contact-item__label">EMAIL</p>
+              <p class="contact-item__value">jmfrianeza321@gmail.com</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--location" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" stroke="white" stroke-width="2"/>
+                <circle cx="12" cy="10" r="3" stroke="white" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="contact-item__content">
+              <p class="contact-item__label">LOCATION</p>
+              <p class="contact-item__value">Dagupan City, Pangasinan</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--school" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="white" stroke-width="2"/>
+                <polyline points="9,22 9,12 15,12 15,22" stroke="white" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="contact-item__content">
+              <p class="contact-item__label">SCHOOL</p>
+              <p class="contact-item__value">UDD – CSNI 1ST YR</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <p class="footer__left">© 2026 JOHN MICHAEL CAYABYAB – BSIT STUDENT</p>
+    <p class="footer__right">THANK YOU FOR VISITING</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mainNav   = document.getElementById('main-nav');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('is-open');
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    mainNav.querySelectorAll('.navbar__nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mainNav.classList.remove('is-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+</html>
